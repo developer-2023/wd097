@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .navbar-brand .logo {
+            height: 50px;
+        }
+        .navbar {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            padding: 10px 20px;
+            background-color: #333;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+        }
+        .navbar-links {
+            display: flex;
+            gap: 20px;
+        }
+        .navbar a {
+            color: #fff;
+            text-decoration: none;
+            font-size: 18px;
+            transition: color 0.3s ease;
+        }
+        .navbar a:hover {
+            color: #4a9ef8;
+        }
+        .navbar-search input {
+            padding: 5px;
+            font-size: 15px;
+            border-radius: 3px;
+            border: none;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <nav class="navbar">
+            <div class="navbar-brand">
+                <a href="#">
+                    <img src="https://cdn.pixabay.com/photo/2015/05/19/07/44/browser-773215_1280.png" alt="logo" class="logo">
+                </a>
+            </div>
+            <div class="navbar-links">
+                <a href="#">Home</a>
+                <a href="#">About us</a>
+                <a href="#">Our products</a>
+                <a href="#">Contact</a>
+            </div>
+            <div class="navbar-search">
+                <input type="text" placeholder="Search for...">
+            </div>
+        </nav>
+    </header>
+</body>
+</html>
